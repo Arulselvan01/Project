@@ -1,12 +1,13 @@
-1.PIP Install:
-flask
-Flask-SQLAlchemy
-flask-login
+Requirements: 
+
+pip install flask
+pip installFlask-SQLAlchemy
+pip installflask-login
 
 
-2.Run File:
+How to Run File
 python main.py
 
 
-3.URL:
+URL for the file:
 http://127.0.0.1:5000
