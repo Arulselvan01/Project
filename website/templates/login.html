@@ -1,0 +1,48 @@
+{% extends "base.html"  %}
+
+{% block title %}Login {% endblock %}
+
+
+{% block content %} 
+<style>
+  body {
+        background-color: #CDF1F0;
+       }
+
+       input[type=email],[type=password] ,select {
+        width: 20%;
+        padding: 5px 5px;
+        margin: 8px 0;
+        display: inline-block;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+       </style>
+<form method="POST">
+    <h3 align="center">Login</h3>
+    <div class="form-group">
+      <label for="email" >Email Address</label><br>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        placeholder="Enter email"
+      />
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label><br>
+      <input
+        type="password"
+        class="form-control"
+        id="password"
+        name="password"
+        placeholder="Enter password"
+      />
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary">Login</button>
+  </form>
+
+ 
+{% endblock %}
